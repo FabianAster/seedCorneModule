@@ -17,4 +17,16 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
+board: ["seed_xiao"]
+shield: ["corne_left", "corne_right"]
+include:
+  - board: bdn9_rev2
+  - board: seed_xiao
+    shield: reviung41
+  - board: seed_xiao
+    shield: corne_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corne_left_with_studio
 ---
+
