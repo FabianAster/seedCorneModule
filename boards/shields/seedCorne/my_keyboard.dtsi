@@ -53,7 +53,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &physical_layout_0;
         // Other chosen items
     };
 };
