@@ -1,10 +1,13 @@
 board: ["seeeduino_xiao_ble"]
 shield: ["my_keyboard_left", "my_keyboard_right"]
 include:
-  - board: seeeduino_xiao_ble
-    shield: my_keyboard_left
-    artifact-name: my_keyboard_left
+  - board: seeeduino_xiao_ble # Replace with the Xiao-compatible board you're using
+    shield: tester_xiao
 
-  - board: seeeduino_xiao_ble
-    shield: my_keyboard_right
-    artifact-name: my_keyboard_right
+  # - board: seeeduino_xiao_ble
+  #   shield: my_keyboard_left
+  #   artifact-name: my_keyboard_left
+
+  # - board: seeeduino_xiao_ble
+  #   shield: my_keyboard_right
+  #   artifact-name: my_keyboard_right
