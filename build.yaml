@@ -8,3 +8,5 @@ include:
   - board: seeeduino_xiao_ble
     shield: seedCorne_right
     artifact-name: seedCorne_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
