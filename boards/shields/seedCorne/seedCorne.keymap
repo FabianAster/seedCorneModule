@@ -31,9 +31,9 @@
 
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I       &kp O    &kp P             &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K       &kp L    &kp LS(NUMBER_2)  &kp LEFT_SHIFT
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K       &kp L    &kp BACKSLASH  &kp LEFT_SHIFT
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH          &kp CAPS
-                  &kp Z  &kp X  &kp LEFT_ALT  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp ESCAPE  &kp BACKSLASH  &kp X
+                  &kp LESS_THAN  &kp CARET  &kp LEFT_ALT  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp ESCAPE  &kp PIPE  &kp GREATER_THAN
             >;
         };
 
@@ -48,7 +48,7 @@
 &kp TAB     &kp N1                 &kp N2        &kp N3             &kp N4         &kp N5        &kp N6    &kp N7         &kp N8       &kp N9     &kp N0     &kp BSPC
 &kp LSHIFT  &kp LS(RIGHT_BRACKET)  &kp QUESTION  &kp RIGHT_BRACKET  &kp LS(N0)     &kp PIPE      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp MINUS  &kp PLUS
 &kp LCTRL   &bt BT_CLR             &bt BT_NXT    &out OUT_TOG       &kp LC(LA(Q))  &kp LS(N7)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans     &trans
-            &kp Z                  &kp X         &kp LEFT_ALT       &trans         &kp SPACE     &kp RET   &trans         &kp ESC      &kp BACKSLASH      &kp X
+            &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC         &kp LEFT_ALT       &trans         &kp SPACE     &kp RET   &trans         &kp ESC      &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
             >;
         };
 
@@ -63,7 +63,7 @@
 &kp TAB    &kp RA(Q)              &kp AT             &kp RA(E)              &kp DLLR           &kp PRCNT    &kp MINUS      &kp RA(N7)  &kp RA(N0)  &kp LPAR         &kp RPAR     &kp BSPC
 &kp LSHFT  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp RA(RIGHT_BRACKET)  &kp LS(N0)         &kp PIPE     &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)  &betterBackTick  &kp LS(SQT)  &kp LA(LC(N0))
 &kp LCTRL  &trans                 &kp LESS_THAN      &kp GREATER_THAN       &kp RA(LESS_THAN)  &trans       &kp RA(MINUS)  &kp RA(N8)  &kp RA(N9)  &kp RBRC         &kp PIPE     &kp TILDE
-           &kp Z                  &kp X              &kp LEFT_ALT           &trans             &kp SPACE    &kp RET        &trans      &kp ESC     &kp Z            &kp X
+            &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC         &kp LEFT_ALT       &trans         &kp SPACE     &kp RET   &trans         &kp ESC      &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
             >;
         };
 
