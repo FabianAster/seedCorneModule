@@ -1,2 +1,3 @@
+# ZMK module for Xiao-Corne
 
-# Better 
+This is the ZMK config for my Xiao-Corne keyboard.
