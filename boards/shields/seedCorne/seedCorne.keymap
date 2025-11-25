@@ -47,7 +47,7 @@
             bindings = <
 &kp TAB     &kp N1                 &kp N2        &kp N3             &kp N4         &kp N5        &kp N6    &kp N7         &kp N8       &kp N9     &kp N0     &kp BSPC
 &kp LSHIFT  &kp LS(RIGHT_BRACKET)  &kp QUESTION  &kp RIGHT_BRACKET  &kp LS(N0)     &kp PIPE      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp MINUS  &kp PLUS
-&kp LCTRL   &bt BT_CLR             &bt BT_NXT    &out OUT_TOG       &kp LC(LA(Q))  &kp LS(N7)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans     &trans
+&kp LCTRL   &bt BT_CLR             &bt BT_NXT    &kp NON_US_BACKSLASH       &kp LS(NON_US_BACKSLASH)  &kp LS(N7)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans     &trans
             &kp RA(NON_US_BACKSLASH)   &kp C_BRIGHTNESS_INC         &kp LEFT_ALT       &trans         &kp SPACE     &kp RET   &trans         &kp ESC      &kp RA(NON_US_BACKSLASH)      &kp RA(NON_US_BACKSLASH)
             >;
         };
@@ -60,7 +60,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp RA(Q)              &kp AT             &kp RA(E)              &kp DLLR           &kp PRCNT    &kp MINUS      &kp RA(N7)  &kp RA(N0)  &kp LPAR         &kp RPAR     &kp BSPC
+&kp TAB    &kp RA(Q)              &kp AT             &kp RA(E)              &kp DLLR           &kp PRCNT    &kp RA(NON_US_BACKSLASH)      &kp RA(N7)  &kp RA(N0)  &kp LPAR         &kp RPAR     &kp BSPC
 &kp LSHFT  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp RA(RIGHT_BRACKET)  &kp LS(N0)         &kp PIPE     &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)  &betterBackTick  &kp LS(SQT)  &kp LA(LC(N0))
 &kp LCTRL  &trans                 &kp LESS_THAN      &kp GREATER_THAN       &kp RA(LESS_THAN)  &trans       &kp RA(MINUS)  &kp RA(N8)  &kp RA(N9)  &kp RBRC         &kp PIPE     &kp TILDE
             &kp LS(NON_US_BACKSLASH)   &kp NON_US_BACKSLASH         &kp LEFT_ALT       &trans         &kp SPACE     &kp RET   &trans         &kp ESC      &kp RA(N9)      &kp RA(N8)
